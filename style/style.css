@@ -5,11 +5,15 @@ html{
 body{
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: gray;
+    background-image: url(/IMAGES/IMAGEN_PRUEBA_03.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
 
 header {
     text-align: center;
+    color: white;
 }
 
 
@@ -24,14 +28,18 @@ header {
 }
 
 .nav_buscador nav a{
-   margin-inline-start: 2%;
+    margin-inline-start: 2%;
+    text-transform: uppercase;
+    font-size: 2.3rem;
+    text-decoration: none;
 }
 
 .intro_tacos{
-    margin-top: 3rem;
+    margin-top: 8rem;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    color: white;
 }
 
 .intro_tacos img{
@@ -43,7 +51,9 @@ header {
 .intro_tacos p{
     width: 60rem;
     margin: 1rem;
-    border-style:dashed; /* Eliminar */
+    font-size: 2rem;
+    text-decoration-line:initial;
+ /*   border-style:dashed; /* Eliminar */
 }
 
 
@@ -55,16 +65,18 @@ header {
    /* border-style:dashed;  Eliminar */
     display: flex;
     justify-content: flex-start;
-    margin-inline-start: 2%;
-   font-size: 3rem;
+    margin-inline-start: 10%;
+   font-size: 4rem;
    text-transform: uppercase;
+   color: white;
+   text-decoration:wavy;
 }
 
 .favoritos {
     display: flex;
     flex-direction: column;
     align-items: center;
-    border-style:dashed;  /*Eliminar */
+  /*  border-style:dashed;  /*Eliminar */
     justify-content: space-around;
 }
 
@@ -77,7 +89,24 @@ header {
 }
 
 .favoritos_fila_uno img{
+    height: 35rem;
+    width: 35rem;
 }
+
+.intro{
+    background-color: white;
+    padding-block-start: 1rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.intro h3{
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin: 2rem;
+}
+
 
 .favoritos_fila_dos{    
     /*  border-style:dashed; Eliminar */
@@ -86,8 +115,32 @@ header {
     justify-content: space-around;
     }
 
+
+
 footer{
-    margin-top: 3%;
+    margin-top: 8%;
     text-transform: uppercase;
     text-align: center;
+    color: white;
+    text-decoration: double;
+    font-size: 2rem;
+
 }
+
+
+.div_social{
+    
+    /*border-style: dashed; */    
+    display: inline-flex;  
+    align-items: center;
+
+    }
+
+
+    .div_social a{
+    
+        /*border-style: dashed; */    
+        color: white;
+        text-decoration: none;
+
+        }
