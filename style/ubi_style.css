@@ -27,6 +27,13 @@ header {
     margin-bottom: 1rem;   
 }
 
+.nav_buscador nav a{
+    margin-inline-start: 2%;
+    text-transform: uppercase;
+    font-size: 2.3rem;
+    text-decoration: none;
+}
+
 
 
 h4{
@@ -50,26 +57,29 @@ p{
 
 
 h5{
-    background-color: black;
     height: 30px;
     width: 800px;
     margin: 1px auto;
+    font-size: 2rem;
     align-items: center;
     text-align: center;
 }
 
 
 footer{
-    margin-top: 3%;
+    margin-top: 8%;
     text-transform: uppercase;
     text-align: center;
     color: white;
-
+    text-decoration: double;
+    font-size: 2rem;
 }
+
 .div_social{   
     /*border-style: dashed; */    
     display: inline-flex;  
     align-items: center;
+
     }
     .div_social a{
         /*border-style: dashed; */    
