@@ -1,111 +1,183 @@
 <!DOCTYPE html>
-<section lang="en">
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taqueria El Guero</title>
+    <link rel="stylesheet" href="/style/menu_style.css">
 </head>
+<body>
+   
+<header>
+    <h1>Tacos el Guero</h1>
+</header>   
+
+<div class="nav_buscador">
+    <nav>
+       <a href="/index.html">Home</a> 
+       <a href="/paginas/ubi.html">Ubicación</a> 
+       <a href="/paginas/his.html">Historia</a> 
+       <a href="/paginas/event.html">Eventos</a> 
+       <a href="/paginas/pedidos.html">Pedidos</a> 
+       <a href="/paginas/menu.html">Menu</a> 
+    </nav>
+</div>
+
 <section class="Menu">
     <div class="Menu_1">
         <div class="card_2">
-            <img src="IMAGES/IMAGEN_PRUEBA_02.png">
             <div class="intro">
                 <h3>La Milanesa</h3>
                 <p>Milanesa, Frijoles, tortilla de maiz o harina.<br>$17</p>
             </div>
         </div>
         <div class="card_2">
-            <img src="IMAGES/IMAGEN_PRUEBA_02.png">
             <div class="intro">
                 <h3>El de Sirloin</h3>
                 <p>Cebolla, cilantro, sirloin marinado, salsa preparada de la casa, tortilla de maíz o harina.<br> $18</p>
             </div>
         </div>
         <div class="card_2">
-            <img src="IMAGES/IMAGEN_PRUEBA_02.png">
             <div class="intro">
                 <h3>El de Bistec</h3>
                 <p>Cebolla acitronada, cilantro, bistec cortado en pedacitos finos, tortilla de maíz o de harina. <br> $15</p>
             </div>
         </div>
         <div class="card_2">
-            <img src="IMAGES/IMAGEN_PRUEBA_02.png">
              <div class="intro">
-                <h3>El de Suaudero</h3>
-                <p>Suadero, Cebolla, Cilantro,Aguacate,tortilla de maiz o harina.<br>$17</p>
+                <h3>El de Suadero</h3>
+                <p>Suadero, cebolla, cilantro, aguacate, tortilla de maiz o harina.<br>$17</p>
             </div>
         </div>
         <div class="card_2">
-            <img src="IMAGES/IMAGEN_PRUEBA_02.png">
             <div class="intro">
                 <h3>A todos le gusta</h3>
                 <p>Chicharron de Ramos, frijoles refritos, Queso, tortilla de maiz o harina.<br> $19</p>
             </div>
         </div>
         <div class="card_2">
-            <img src="IMAGES/IMAGEN_PRUEBA_02.png">
             <div class="intro">
                 <h3>El Rib-eye</h3>
-                <p>Rib-eye sazonado con hierbas finas ,Cebolla morada curtidaco, aguacate y queso tortilla de maiz o harina.<br>  $25</p>
+                <p>Rib-eye sazonado con hierbas finas, cebollita morada curtida, aguacate y queso tortilla de maiz o harina.<br>  $25</p>
             </div>
         </div>
         <div class="card_2">
-            <img src="IMAGES/IMAGEN_PRUEBA_02.png">
             <div class="intro">
                 <h3>El Vegano</h3>
                 <p>Trufa al limon, champiñones, pimiento morron, tortilla de maiz o harina.<br>  $21</p>
             </div>
         </div>
         <div class="card_2">
-            <img src="IMAGES/IMAGEN_PRUEBA_02.png">
             <div class="intro">
                 <h3>El Guero</h3>
                 <p>Picaña sazonada con sal y pimienta, acomopañada de salsa blanca, con aguacate y queso, tortilla de maiz o harina.<br> $34</p>
             </div>
         </div>
         <div class="card_2">
-            <img src="IMAGES/IMAGEN_PRUEBA_02.png">
             <div class="intro">
                 <h3>El Infernal</h3>
-                <p>New york, bañado en salsa VENENOSA, Cebollita y aguacate, tortilla maiz o harina. <br>$70</p>
+                <p>New york, bañado en salsa <span id="Venenosa">VENENOSA</span>, Cebollita y aguacate, tortilla maiz o harina. <br>$70</p>
             </div>
+        </div>
+        <div class="card_2">
+            <div class="intro">
+                <h3>Gringa</h3>
+                <p>Arrachera, aguacate, cebollita picada, cilantro, queso, tortilla de harina. <br>$70</p>
+            </div>
+        </div>
+    </div>
+    <div class="Salsas">
+        <h3> Salsas </h3>
+        <div class="las Faciles">
+            <ul>
+                <h4>Aguacate</h4>
+                <li>Aguacate, comino, ajo, cilantro, limon</li>
+                <h4>Tomatillo</h4>
+                <li>Tomatillo con limon, oregano y cebollita picada</li>
+                <h4>Tomate</h4>
+                <li>Tomate con oregano,cebollita picada, jalapeño</li>
+                <h4>Dulce</h4>
+                <li>Piña y Tomate</li>
+            </ul>
+        </div>
+        <div class="las Picosas">
+            <ul>
+                <h4 id="Picosas">Verde</h4>
+                <li>Tomatillo, jalapeño, cebollita picada, cilantro</li>
+                <h4 id="Picosas">Roja</h4>
+                <li>Tomate, Chile Serrano, cebollita picada</li>
+                <h4 id="Picosas">Naranja/Amarilla</h4>
+                <li>Salsa de Habanero</li>
+            </ul>
+        </div>
+        <div class="Imposible">
+            <ul>
+                <h4 id="Venenosa">Venenosa</h4>
+                <li>Salsa de Carolina Reaper (no recomendada para los debiles)</li>
+            </ul>
+        </div>
+    </div>
+    
+    <div class="Promos">
+        <h3>Promos</h3>
+        <div class="2x1">
+            <ul>
+                <h3>Tacos al 2x1 </h3>
+                <h4>Lunes</h4><li>Suadero 2x1</li>
+                <h4>Martes</h4><li>Bistec 2x1 </li>
+            </ul>
+        </div>
+        <div class="otras">
+            <ul>
+                <h3>Otras</h3>
+                <h4>Jueves</h4>
+                <li>Todas las Cervezas en $19</li>
+                <h4>Sabados y Domingos</h4>
+                <li>3x$40 a domicilio</li>
+                <p> <b>**Las promociones no aplican para los Favoritos**</b></p>
+            </ul>
         </div>
     </div>
 </section>
 
-<section class="Salsas">
-    <div class="las Faciles">
-        <ul>
-            <li>Aguacate <br> Aguacate, comino, ajo, cilantro, limon</li>
-            <li>Tomatillo <br> Tomatillo con limon, oregano y cebollita picada</li>
-            <li>Tomate <br> Tomate con oregano,cebollita picada, jalapeño</li>
-            <li>Dulce <br>Piña y Tomate</li>
-        </ul>
+<footer>
+    <h4>Siguenos en nuestras redes:</h4>
+    <div class="div_social">
+        <a href="#">INSTAGRAM</a> 
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-instagram" width="76" height="76" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+            <rect x="4" y="4" width="16" height="16" rx="4" />
+            <circle cx="12" cy="12" r="3" />
+            <line x1="16.5" y1="7.5" x2="16.5" y2="7.501" />
+          </svg>
     </div>
-    <div class="las Picosas">
-        <ul>
-            <li>Verde <br>Tomatillo, jalapeño, cebollita picada, cilantro</li>
-            <li>Roja <br>Tomate, Chile Serrano, cebollita picada</li>
-            <li>Naranja/Amarilla<br> Salsa de Habanero</li>
-        </ul>
-    </div>
-    <div class="Imposible">
-        <ul>
-            <li>Venenosa<br> Salsa de Carolina Reaper (no recomendada para los debiles)</li>
-        </ul>
-    </div>
-</section>
 
-<section class="Promos">
-    <div class="2x1">
-        <h3> Tacos al 2x1 </h3>
-        <ul>
-            <li>Lunes <br> Suadero 2x1</li>
-            <li>Martes<br> Bistec 2x1 </li>
-        </ul>
+    <div class="div_social">
+        <a href="#">FACEBOOK</a>
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-facebook" width="76" height="76" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+            <path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3" />
+        </svg>
     </div>
-    <div class="otras">
-        <ul>
-            <li>Jueves<br> Todas las Cervezas en $19</li>
-            <li>Sabados y Domingos<br> 3x$40 a domicilio</li>
-        </ul>
+
+    <div class="div_social">
+    <a href="#">TIKTOK</a>
+    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-tiktok" width="76" height="76" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+        <path d="M9 12a4 4 0 1 0 4 4v-12a5 5 0 0 0 5 5" />
+    </svg>
     </div>
-    <p>Las promociones no aplican para los Favoritos</p>
-</section>
+    
+    <div class="div_social">
+    <a href="#">TWEETER</a>
+    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-twitter" width="76" height="76" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+        <path d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c-.002 -.249 1.51 -2.772 1.818 -4.013z" />
+    </svg>
+    </div>
+    
+</footer>
+
+</body>
+</html>
