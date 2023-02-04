@@ -35,15 +35,22 @@ header {
 }
 
 
-table{
+.fila{
     display: flex;
-    align-items: normal; 
-    justify-content: space-between 50px;
+    justify-content: center;
+    }
+.fila .galeria{
+    margin: 1%;
+    border-style: dashed;
 }
 
-tr{
-    margin: 300px;
+.fila .galeria img{
+width: 30rem;
+height: 30rem;
+
+
 }
+
 
 
 
