@@ -1,0 +1,90 @@
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(/IMAGES/IMAGEN_PRUEBA_03.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: white
+}
+
+header {
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    font-size: 3rem;
+}
+
+.nav_buscador nav{
+    display: flex;
+    justify-content: flex-start;
+    background-color: white;
+    padding:1rem;
+    margin-top: 1rem; 
+    margin-bottom: 1rem;   
+}
+
+.nav_buscador nav a{
+    margin-inline-start: 2%;
+    text-transform: uppercase;
+    font-size: 2.3rem;
+    text-decoration: none;
+}
+
+footer{
+    margin-top: 8%;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    text-decoration: double;
+    font-size: 2rem;
+
+}
+
+.Menu{
+    display:inline-flex;
+}
+
+.div_social{
+    
+    /*border-style: dashed; */    
+    display: inline-flex;  
+    align-items: center;
+
+    }
+
+
+    .div_social a{
+    
+        /*border-style: dashed; */    
+        color: white;
+        text-decoration: none;
+
+        }
+
+
+
+ul li{
+    list-style-type: none;
+}
+
+h4{
+    margin-top: 12px;
+    margin-bottom: 2px;
+}
+
+#Venenosa{
+    color: rgb(84, 0, 123);
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#Picosas{
+    color: rgb(123, 0, 0);
+}
+
+
