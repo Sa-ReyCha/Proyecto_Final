@@ -1,0 +1,107 @@
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(/IMAGES/IMAGEN_PRUEBA_03.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+header {
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    font-size: 3rem;
+}
+
+.nav_buscador nav{
+    display: flex;
+    justify-content: flex-start;
+    background-color: white;
+    padding:1rem;
+    margin-top: 1rem; 
+    margin-bottom: 1rem;   
+}
+
+.nav_buscador nav a{
+    margin-inline-start: 2%;
+    text-transform: uppercase;
+    font-size: 2.3rem;
+    text-decoration: none;
+}
+
+.intro_tacos{
+    margin-top: 8rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+    font-style:oblique;
+}
+
+.intro_tacos img{
+    margin: 1rem;
+    margin-inline-start: 2rem;
+}
+
+
+.intro_tacos p{
+    width: 60rem;
+    margin: 1rem;
+    font-size: 2rem;
+    text-decoration-line:initial;
+ /*   border-style:dashed; /* Eliminar */
+}
+
+h5{
+    color:white;
+    text-align: 90px;
+    font-size: 14px;
+    background-color: black;
+    margin: 1px auto;
+    width: 800px;
+    height: 120px;
+    margin-top: 40px;
+    line-height: 12px;
+    display:flow-root;
+    align-items: center;
+
+}
+
+
+
+footer{
+    margin-top: 8%;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    text-decoration: double;
+    font-size: 2rem;
+
+}
+
+
+.div_social{
+    
+    /*border-style: dashed; */    
+    display: inline-flex;  
+    align-items: center;
+
+    }
+
+
+    .div_social a{
+    
+        /*border-style: dashed; */    
+        color: white;
+        text-decoration: none;
+
+        }
+#Venenosa{
+    color: rgb(84, 0, 123);
+    font-weight: bold;
+}
