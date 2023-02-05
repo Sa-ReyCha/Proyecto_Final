@@ -52,7 +52,7 @@ body{
         align-items: center;
         padding:1rem;
         margin-top: 1rem; 
-        margin-bottom: 1rem;   
+        margin-bottom: 1%;   
         background-color: white;
         border-style: dashed;
         padding-left: 10rem;
@@ -70,7 +70,7 @@ body{
     /* ---------------- nav */  
 
     .intro_tacos{
-        margin-top: 3rem;
+        margin-top: 1%;
         display: flex;
         align-items: center;
         justify-content: space-evenly;
@@ -81,11 +81,13 @@ body{
 
     .intro_tacos img{
         margin: 1rem;
-        margin-inline-start: 2rem;
+       
+        width: 100%;
+        height: 100%;
     }
 
     .intro_tacos p{
-        width: 35rem;
+        width: 10%rem;
         margin: 1rem;
         font-size: 1.5rem;
         text-decoration-line:initial;
@@ -102,7 +104,7 @@ body{
          display: flex;
          justify-content: flex-start;
          margin-inline-start: 5%;
-        font-size: 3rem;
+        font-size: 150%;
         text-transform: uppercase;
         color: white;
         text-decoration:wavy;
@@ -144,6 +146,8 @@ body{
     display: flex;
     align-items: center;
     flex-direction: column;
+    text-align: center;
+    width: 100%;
 }
 
 .intro h3{
@@ -209,6 +213,179 @@ footer svg{
   /* IPADS */
   /* Media Query for low resolution  Tablets, Ipads */ 
     @media (min-width: 481px) and (max-width: 767px) { 
+
+        body{
+            /*background-image: url(/IMAGES/IMAGEN_PRUEBA_03.jpg);*/
+            background-color: blue;
+            background-size:  200rem;
+            background-position: center;
+            background-attachment:fixed;
+        }
+    
+        header {
+            text-align: center;
+            color: white;
+            text-transform: uppercase;
+            font-size: 2rem;        
+        }
+        /* ---------------- head */ 
+    
+        .nav_buscador nav{
+            display: flex;
+            justify-content:center;
+            align-items: center;
+            padding:1rem;
+            margin-top: 1rem; 
+            margin-bottom: 1%;   
+            background-color: white;
+            border-style: dashed;
+            padding-left: 10rem;
+            padding-right: 10rem;  /* checar checar ------- */        
+        }
+    
+        .nav_buscador nav a{
+            margin-inline-start: 2%;
+            text-transform: uppercase;
+            font-size: 1.2rem;
+            text-decoration: none;
+            font-weight: bold;        
+                  
+        }
+        /* ---------------- nav */  
+    
+        .intro_tacos{
+            margin-top: 1%;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            flex-direction: column;
+            color: white;
+            border-style: dashed;
+        }
+    
+        .intro_tacos img{
+            margin: 1rem;
+           
+            width: 100%;
+            height: 100%;
+        }
+    
+        .intro_tacos p{
+            width: 10%rem;
+            margin: 1rem;
+            font-size: 1.5rem;
+            text-decoration-line:initial;
+            border-style:dashed;
+        }
+           /* ---------------- INTRO Y DESCRIPCIÓN */  
+        
+        .favoritos_section{
+            border-style:dashed;
+        }
+        
+        #favoritos_titulo {
+            /* border-style:dashed;  Eliminar */
+             display: flex;
+             justify-content: flex-start;
+             margin-inline-start: 5%;
+            font-size: 150%;
+            text-transform: uppercase;
+            color: white;
+            text-decoration:wavy;
+         }
+         /* ---------------- LO QUE DICE FAVORITOS*/ 
+    
+    
+         .favoritos {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            border-style:dashed; 
+            background-color: blue;
+            justify-content: space-around;
+        }
+        
+    .favoritos_fila_uno{    
+        border-style:dashed; 
+        border-color: yellow;
+        display: flex;
+        flex-direction: column;
+        /*justify-content: space-around;*/
+        align-content: center;
+       /* margin-bottom: 4%;*/
+     }
+     
+    .favoritos_fila_uno img{
+         height: 100%;
+        width: 100%;
+    }
+    .card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .intro{
+        background-color: white;
+        padding-block-start: 1rem;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+    }
+    
+    .intro h3{
+        font-size: 2rem;
+        text-transform: uppercase;
+        margin: 2rem;
+    }
+         /* ---------------- PRIMERA FILA*/ 
+    
+     .favoritos_fila_dos{    
+        border-style:dashed; 
+        border-color: green;        
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        }
+        
+        .favoritos_fila_dos img{ 
+        height: 100%;
+        width: 100%;
+        }
+        /* ---------------- Segunda FILA*/ 
+    
+    
+    footer{
+        border-style:dashed; 
+        border-color: yellow;
+        margin-top: 1%;
+        text-transform: uppercase;
+        text-align: center;
+        color: white;
+        text-decoration: double;
+        font-size: 2rem;
+    }
+    
+    
+    footer svg{
+        width: 3rem;
+        height: 3rem;
+    }
+    
+    
+    .div_social{    
+        border-style: dashed;    
+        display: inline-flex;  
+        align-items: center;
+        font-size: 1.3rem;
+        }
+    
+        .div_social a{    
+            /*border-style: dashed; */    
+            color: white;
+            text-decoration: none;
+            }
       
     }
     
