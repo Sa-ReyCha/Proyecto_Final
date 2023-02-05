@@ -1,0 +1,89 @@
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+
+
+
+
+body{
+    background-image: url(/IMAGES/IMAGEN_PRUEBA_03.jpg);
+   /* background-color: magenta;*/
+    background-size:  200rem;
+    background-position: center;
+    background-attachment:fixed;
+}
+
+header {
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    font-size: 4rem;        
+}
+/* ---------------- head */ 
+
+.nav_buscador nav{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding:1rem;
+    margin-top: 1rem; 
+    margin-bottom: 1%;   
+    background-color: white;
+   /*border-style: dashed; */
+    padding-left: 10rem;
+    padding-right: 10rem;  /* checar checar ------- */        
+}
+
+.nav_buscador nav a{
+    margin-inline-start: 5%;
+    text-transform: uppercase;
+    font-size: 3rem;
+    text-decoration: none;
+    font-weight: bold;        
+          
+}
+/* ---------------- nav */  
+
+
+footer{
+/*border-style: dashed; */ 
+border-color: yellow;
+margin-top: 1%;
+text-transform: uppercase;
+text-align: center;
+color: white;
+text-decoration: double;
+font-size: 5rem;
+
+}
+/* -----------------------------------------------------------------------------------------*/
+
+footer svg{
+width: 12rem;
+height: 12rem;
+}
+
+
+.div_social{    
+/*border-style: dashed; */  
+border-color: red;
+display: inline-flex;  
+align-items:center;
+font-size: 2.6rem;
+
+}
+
+.div_social a{    
+    /*border-style: dashed; */    
+    color: white;
+    text-decoration: none;
+    }
