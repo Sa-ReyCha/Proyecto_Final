@@ -3,153 +3,214 @@ html{
 }
 
 *{
-    margin:0;
+    margin: 0;
     padding: 0;
     box-sizing:border-box;
 }
 
 body{
+    background-image: url(/IMAGES/IMAGEN_PRUEBA_03.jpg);
+    background-size: 2000px;
+    background-position: center;
+    background-attachment:fixed;
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
-    background-image: url(/IMAGES/IMAGEN_PRUEBA_03.jpg);
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    color: white
 }
-
 header {
     text-align: center;
     color: white;
     text-transform: uppercase;
-    font-size: 3rem;
+    font-size: 40px;        
+}
+
+.title{
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    margin-bottom: 40px;
+    border-radius: 20px 20px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
 }
 
 .nav_buscador nav{
     display: flex;
-    justify-content: flex-start;
+    justify-content:center;
+    align-items: center;
+    padding:10px;
+    margin-top: 10px; 
+    margin-bottom: 1%;   
     background-color: white;
-    padding:1rem;
-    margin-top: 1rem; 
-    margin-bottom: 1rem;   
+   /*border-style: dashed; */
+    padding-left: 100px;
+    padding-right: 100px;  /* checar checar ------- */        
 }
 
 .nav_buscador nav a{
-    margin-inline-start: 2%;
+    margin-inline-start: 5%;
     text-transform: uppercase;
-    font-size: 2.3rem;
+    font-size: 30px;
     text-decoration: none;
+    font-weight: bold;        
+          
 }
 
 footer{
-    margin-top: 8%;
-    text-transform: uppercase;
+    /*border-style: dashed; */ 
+     border-color: yellow;
+     margin-top: 1%;
+     text-transform: uppercase;
+     text-align: center;
+     color: white;
+     text-decoration: double;
+     font-size: 50px;
+ }
+ footer svg{
+    width: 120px;
+    height: 120px;
+}
+ 
+ 
+ 
+ .div_social{    
+    /*border-style: dashed; */   
+     display: inline-flex;  
+     align-items: center;
+     font-size: 26px;
+     }
+ 
+     .div_social a{    
+         /*border-style: dashed; */    
+         color: white;
+         text-decoration: none;
+         }
+ 
+
+.seccion.s h3{
+    margin-top: 60px;
+}
+.seccion h4{
+    margin-top: 60px;
+    background-color: #ff7720;
+    font-size: 30px;
+    color: white;
     text-align: center;
-    color: white;
-    text-decoration: double;
-    font-size: 2rem;
-
+    margin-bottom: -20px;
+    border-radius: 20px 20px;
 }
-
-.Menu{
-    padding: 100px 0;
-}
-
-    .Container{
-    width: 1170px;
-    margin: 0 auto;
-    }
-    .title{
-        text-align:center;
-        margin-bottom: 60px;
-        
-    }
-    .title h3{
-        text-transform: uppercase;
-        font-size: 40px;
-    }
-
-
-.tacos{
-    display:flex;
-    flex-wrap: wrap;
+.container2{
+    display: flex;
+    justify-content: center;
     justify-content: space-between;
+}
+.container2.i{
+    justify-content: center;
+}
+.menu{
+    padding:100px;
+}
 
+.container{
+    margin:0 auto;
+    width: 1170px;
 }
-.taco-img{
-    position: relative;
-    height: 220px;
-    overflow: hidden;
-    width:100%;
-}
-.taco-img img{
-    border-radius: 12px 12px 0 0;
-    transition: .3s;
-}
-.taco-img h4{
-    position: absolute;
-    left: 0;
-    top: -50px;
-    background-color: lightblue;
+
+.seccion h3{
+    text-transform: uppercase;
+    font-size: 40px;
+    margin-top: 5px;
     color: white;
-    text-transform: capitalize;
-    padding:10px 20px;
-    font-size: 22px;
-    font-weight: 600;
-    transition:.3s;
 }
 
-.taco{
-    background-color: white;
-    border:1px;
-    border-radius: 12px;
-    margin-bottom: 30px;
-    overflow: hidden;
-    flex-basis:31%;
-}
-.taco:hover .taco-img h4{
-    top:0;
-}
-.taco:hover img{
-    transform: scale(1.1) rotate(3deg);
-}
-
-.div_social{
-    
-    /*border-style: dashed; */    
-    display: inline-flex;  
-    align-items: center;
-
-    }
-
-
-    .div_social a{
-    
-        /*border-style: dashed; */    
-        color: white;
-        text-decoration: none;
-
-        }
-
-#Venenosa{
-    color: rgb(84, 0, 123);
-    font-weight: bold;
-    font-size: 18px;
-}
-
-#Picosas{
-    color: rgb(123, 0, 0);
-}
-.inner{
+.seccion{
     text-align: center;
     margin-bottom: 60px;
 }
 
-.ingredientes {
+.tacos{
+    display:flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+}
+
+                            /*Los Tacos*/
+.boxt{
+    position:relative;
+    height: 220px;
+    overflow:hidden;
+    max-width: 100%
+}
+
+.boxt h4{
+    position: absolute;
+    left: 0;
+    top: -50px;
+    background-color: #ff7720;
+    color: #fff;
+    text-transform: capitalize;
+    padding: 10px 20px;
+    font-size: 22px;
+    font-weight: 600;
+    transition: .3s;
+}
+.boxt img {
+    border-radius: 12px 12px 0 0;
+    transition: .4s;
+  }
+
+.boxs:hover .boxt h4 {
+    top: 0;
+  }
+.boxs:hover img {
+	transform: scale(1.1) rotate(3deg);
+}
+
+
+                            /*Las Faciles*/
+
+.title.facil{
+    background-color: #93E9BE;
+    justify-content: center;
+}
+.boxt.f h4{
+    background-color:#93E9BE;
+}
+
+
+                            /* Las Dificiles*/
+.title.dificil{
+    background-color: #F62E36;
+    justify-content: center;
+}
+.boxt.d h4{
+    background-color: #F62E36;
+}
+
+.title.imposible{
+    background-color: #9936a8;
+    justify-content: center;
+}
+
+.boxt.i h4{
+    background-color: #9936a8;
+}
+
+                        /*format of menu boxes*/    
+.boxs{
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    margin-bottom: 30px;
+    overflow: hidden;
+    flex-basis: 30%;
+}
+.ingredients {
     padding: 20px;
     list-style: none;
   }
-  .ingredientes li {
+  .ingredients li {
     font-weight: 400;
     font-size: 18px;
     display: flex;
@@ -158,9 +219,220 @@ footer{
     padding-bottom: 10px;
     margin-bottom: 10px;
   }
-  .ingredientes li:last-child {
+  .ingredients li:last-child {
     border-bottom: 0;
     margin-bottom: 0;
     padding-bottom: 0;
     font-weight: 600;
   }
+
+.boxs.s{
+    width:300px;
+}
+
+
+
+/* pop up title above image left top corner*/
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media (min-width: 600px){
+    .container{
+        width: 570px;
+    }
+    .body{
+        background-size: 150px;
+    }
+    header{
+        font-size:20px;
+    }
+    .nav_buscador nav{
+        padding: 5px;
+        margin-top: 10px;
+        padding-left:20px;
+        padding-right: 20px;
+    }
+
+    .nav_buscador nav a{
+        margin-inline-start: 5%;
+        font-size:12px;
+    }
+    .boxt{
+        height:80px;
+
+    }
+    .boxt h4{
+        display:flex;
+        justify-content: center;
+        top:20px;
+        left:5px;
+        padding-bottom:20px;
+        padding-right: 20px;
+        border-radius: 20px;
+        
+    }
+    .footer{
+        margin-top: 1%;
+        font-size: 2rem;
+    }
+    footer svg{
+        width: 30px;
+        height: 30px;
+    }
+    .div_social{
+        font-size:1.3rem;
+    }
+    .div_social a{
+        text-decoration:none;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media (min-width: 768px)  and (max-width:  992px){
+    .container{
+        width:630px;
+    }
+    .boxt{
+        height:130px;
+    }
+    .boxt img{
+        display:none;
+        height: 120px;
+        border-radius: 12px 12px 0 0;
+    }
+    .body{
+        background-size: 200rem;
+    }
+
+    .boxt h4{
+        display:flex;
+        justify-content: center;
+        top:20px;
+        left:5px;
+        padding-bottom:20px;
+        padding-right: 20px;
+        border-radius: 20px;  
+    } 
+
+    header{
+        font-size:3rem;
+    }
+    .nav_buscador nav{
+        padding: 1rem;
+        margin-top: 10px;
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+
+    .nav_buscador nav a{
+        margin-inline-start: 5%;
+        font-size:21px;
+    }
+    .footer{
+        margin-top: 1%;
+        font-size: 3rem;
+    }
+    footer svg{
+        width: 5rem;
+        height: 5rem;
+    }
+}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media(min-width: 992px) and (max-width: 1199px) {
+    .container{
+        width: 700px;
+    }
+    .boxt{
+        height:150px;
+    }
+    body{
+        background-size:  150rem;
+    }
+
+    header {
+        font-size: 3rem;        
+    }
+
+    .nav_buscador nav{
+        padding:1rem;
+        margin-top: 1rem; 
+        margin-bottom: 1%;   
+        padding-left: 10rem;
+        padding-right: 10rem;       
+    }
+
+    .nav_buscador nav a{
+        margin-inline-start: 5%;
+        font-size: 2.5rem;      
+              
+    }
+    footer{
+        margin-top: 1%;
+        font-size: 5rem;
+    }
+    
+    
+    footer svg{
+        width: 9rem;
+        height: 9rem;
+    }
+    
+    
+    .div_social{    
+        font-size: 2.6rem;
+        }
+    .div_social a{
+        text-decoration:none;
+    }
+      
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .container{
+        width:960px;
+    }
+    .boxt{
+        height:220px;
+    }
+    body{
+        background-image: url(/IMAGES/IMAGEN_PRUEBA_03.jpg);
+       /* background-color: magenta;*/
+        background-size:  200rem;
+    }
+
+    header {
+        font-size: 4rem;        
+    }
+
+    .nav_buscador nav{
+        padding:1rem;
+        margin-top: 1rem; 
+        margin-bottom: 1%;   
+        padding-left: 10rem;
+        padding-right: 10rem;    
+    }
+
+    .nav_buscador nav a{
+        margin-inline-start: 5%;
+        font-size: 3rem;      
+              
+    }
+
+    .div_social{    
+        /*border-style: dashed; */  
+        font-size: 2.6rem;
+    }
+        footer{
+            /*border-style: dashed; */ 
+            margin-top: 1%;
+            font-size: 5rem;
+            
+        }
+        footer svg{
+            width: 12rem;
+            height: 12rem;
+        }
+  
+    }
