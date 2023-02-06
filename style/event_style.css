@@ -39,16 +39,32 @@ header {
     display: flex;
     justify-content: center;
     }
+
 .fila .galeria{
-    margin: 1%;
-    border-style: dashed;
+    margin: 5%;
+    border-style: none;
 }
 
 .fila .galeria img{
-width: 30rem;
-height: 30rem;
+width: 40rem;
+height: 40rem;
+}
 
+.fila .intro{
+    background-color: white;
+    padding-block-start: 1rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    height: 20rem;   
+}
 
+.fila .intro h3{
+    font-size: 4rem;
+    text-transform: uppercase;
+    margin: 2rem;
 }
 
 
