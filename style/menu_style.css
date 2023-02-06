@@ -143,15 +143,15 @@ footer{
 }
 
 .boxt h4{
+    background-color: #ff7720;
     position: absolute;
     left: 0;
-    top: -50px;
-    background-color: #ff7720;
-    color: #fff;
-    text-transform: capitalize;
-    padding: 10px 20px;
     font-size: 22px;
     font-weight: 600;
+    top: -50px;
+    padding: 10px 20px;
+    color: #fff;
+    text-transform: capitalize;
     transition: .3s;
 }
 .boxt img {
