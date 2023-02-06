@@ -35,13 +35,18 @@ header {
 }
 
 .intro_tacos{
+    display: flex;
+    flex-wrap:wrap;
     margin-top: 8rem;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     color: white;
     font-style:oblique;
+    margin-bottom: 30px;
+    
 }
+
 
 .intro_tacos img{
     margin: 1rem;
@@ -49,12 +54,11 @@ header {
 }
 
 
-.intro_tacos p{
-    width: 60rem;
-    margin: 1rem;
+
+ul li{
+    margin-bottom: 1rem;
     font-size: 2rem;
-    text-decoration-line:initial;
- /*   border-style:dashed; /* Eliminar */
+    list-style: none;
 }
 
 h5{
@@ -107,9 +111,6 @@ footer{
 }
 
 @media (max-width: 480px) { 
-    .intro_tacos{
-        display:flex;
-    }
             body{
                 background-size:  200rem;
             }
@@ -160,6 +161,7 @@ footer{
           /* IPADS */
           /* Media Query for low resolution  Tablets, Ipads */ 
 @media (min-width: 481px) and (max-width: 767px) { 
+    
                 body{
                     background-image: url(/IMAGES/IMAGEN_PRUEBA_03.jpg);
                     /*background-color: blue;*/
