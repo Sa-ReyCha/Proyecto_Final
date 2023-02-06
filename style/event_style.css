@@ -11,6 +11,9 @@ body{
     background-attachment: fixed;
 }
 
+
+
+
 header {
     text-align: center;
     color: white;
@@ -42,7 +45,7 @@ header {
 
 .fila .galeria{
     margin: 5%;
-    border-style: none;
+    border-style: double;
 }
 
 .fila .galeria img{
